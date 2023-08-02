@@ -1,0 +1,183 @@
+/* Styles for the "login" class */
+html {
+  background-color: bisque;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login {
+    
+    display: flex;
+    margin: 45px;
+    /* Your CSS rules for the "login__container" class go here */
+    width: 505px;
+    height: 757px;
+    /* background-color: #ff9393; */
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px black;
+    /* Your CSS rules for the "login" class go here */
+  }
+  
+  /* Styles for the "login__container" class */
+  .login__container {
+    justify-content: center;
+    margin: auto;
+    /* margin: 0 auto;
+    width: 505px;
+    height: 757px; */
+    /* background-color: #b1b1b1; */
+    width: 455px;
+    height: 715px;
+
+  }
+  
+  /* Styles for the "login__container--congratulations" class */
+  .login__container--congratulations {
+    /* Your CSS rules for the "login__container--congratulations" class go here */
+    font-size: 35px;
+  }
+  
+  /* Styles for the "login__container--title" class */
+  .login__container--title {
+    font-size: 40px;
+    font-weight: bold;
+    /* Your CSS rules for the "login__container--title" class go here */
+  }
+  
+  /* Styles for the "login__container--under_title" class */
+  .login__container--under_title {
+    /* Your CSS rules for the "login__container--under_title" class go here */
+  }
+  
+  /* Styles for the "login__container--input_gmail" class */
+  .login__container--input_gmail {
+    /* Your CSS rules for the "login__container--input_gmail" class go here */
+  }
+  
+  /* Styles for the "input" class */
+  input {
+    /* Your CSS rules for the "input" class go here */
+    width: 447px;
+    height: 35px;
+    border-radius: 12px;
+  }
+
+  .input {
+    margin: 20px 0;
+  }
+  
+  /* Styles for the "input__title" class */
+  .input__title {
+    /* Your CSS rules for the "input__title" class go here */
+    padding-bottom: 5px;
+  }
+  
+  /* Styles for the "login__container--input_username" class */
+  .login__container--input_username {
+    /* Your CSS rules for the "login__container--input_username" class go here */
+
+  }
+  
+  /* Styles for the "login__container--input_password" class */
+  .login__container--input_password {
+    /* Your CSS rules for the "login__container--input_password" class go here */
+
+  }
+  
+  /* Styles for the "login__container--input_c-password" class */
+  .login__container--input_c-password {
+    /* Your CSS rules for the "login__container--input_c-password" class go here */
+
+  }
+  
+  /* Styles for the "login__container--button" class */
+  .login__container--button {
+    /* Your CSS rules for the "login__container--button" class go here */
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+    background-color: #000000;
+    color: aliceblue;
+    margin-bottom: 15px;
+  }
+
+  .login__container--button:hover{
+    background-color: #535353;
+    font-size: 30px;
+    transition: 0.1s
+  }
+  
+  /* Styles for the "login__container--footer" class */
+  .login__container--footer {
+    /* Your CSS rules for the "login__container--footer" class go here */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  /* Styles for the "footer__text" class */
+  .footer__text {
+    /* Your CSS rules for the "footer__text" class go here */
+    margin-right: 6px;
+  }
+  
+  /* Styles for the "footer__link" class */
+  .footer__link {
+    /* Your CSS rules for the "footer__link" class go here */
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+  }
+
+  .login__container_merge{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+
+
+
+  .login__container--g{
+    height: 45px;
+    width: 45px;
+    margin: 0 35px;
+  }
+
+  .login__container--g:hover{
+    border: 1px solid black;
+    border-radius: 3px;
+    transition: 0.3s;
+  }
+
+  .login__container--f{
+    height: 55px;
+    width: 55px;
+    margin: 0 35px;
+  }
+
+  .login__container--f:hover{
+    border: 1px solid black;
+    border-radius: 3px;
+    transition: 0.3s;
+  }
+  
+  .login__container--a {
+    height: 45px;
+    width: 45px;
+    margin: 0 35px;
+  }
+
+  .login__container--a:hover{
+  border: 1px solid black;
+  border-radius: 3px;
+  transition: 0.3s;
+  }
+  
+  
